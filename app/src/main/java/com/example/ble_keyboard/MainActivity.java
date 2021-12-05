@@ -1,5 +1,5 @@
 package com.example.ble_keyboard;
-import android.widget.Toolbar;
+//import android.widget.Toolbar;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -24,10 +24,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
